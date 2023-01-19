@@ -14,7 +14,7 @@ class Config:
 #BOT TOKEN: @Botfather on telegram    
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5647123835:AAHN6PUFsVpCFkxYuSdHlX4iW_Wc8Nuo7IU")
 #Public channel username without '@'. Don't forget to add bot in channel as administrator.    
-    FORCESUB = os.environ.get("FORCESUB", "akimaxmovies") 
+    FORCESUB = os.environ.get("FORCESUB", "akimax") 
 #Owner user id   
     AUTH  = os.environ.get("OWNER_ID", "5143506371")
 #Pyrogram string session using (https://replit.com/@KindKobra/Pyrogram-String-Gen?v=1)
